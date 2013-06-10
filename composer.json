@@ -1,0 +1,22 @@
+{
+    "name":        "lordbaine/am-charts-bundle",
+    "type":        "symfony-bundle",
+    "description": "AmCharts Bundle for Symfony2",
+    "keywords":    ["amcharts", "symfony"],
+    "authors":     [
+        {
+            "name":     "Casey Coones",
+            "email":    "baineblade@hotmail.com",
+            "homepage": "https://github.com/LordBaine2000"
+        }
+    ],
+    "require":     {
+        "symfony/framework-bundle": ">=2.1"
+    },
+    "autoload":    {
+        "psr-0": {
+            "LordBaine\\AmChartsBundle": ""
+        }
+    },
+    "target-dir":  "LordBaine/AmChartsBundle"
+}
